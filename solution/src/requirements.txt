@@ -1,0 +1,4 @@
+pyyaml
+rospkg
+opencv-python
+statistics
