@@ -7,7 +7,7 @@ Solution node for Labyrinth event under Technex'22
 ### Basic Steps
 
 1. Launch Gazebo  [`roslaunch labyrinth_qual labyrinth_husky_arena.launch`]
-2. Launch Rviz  [`rosrun rviz rviz`]
+2. Launch Rviz  [`rosrun rviz rviz -d custom.rviz`]
 
 
 ### Generating/saving map
@@ -19,7 +19,8 @@ Solution node for Labyrinth event under Technex'22
 
 ### Qualification Round
 
-1. Run quals.py  [`roscd solution/src/  -> python3 quals.py`]
+1. Install Dependencies  [`python3 -m pip install -r requirements.txt`]
+2. Run quals.py  [`roscd solution/src/  -> python3 quals.py`]
 
 
 ### Autonomous navigation
