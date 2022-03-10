@@ -1,0 +1,9 @@
+Goal Location 1
+
+Position:  x=-4.74 y=-1.68
+Orientation: x=0.0 y=0.0 z=-0.7076 w=0.7065   
+
+Goal Location 2
+
+Position:  x=4.352 y=6.547
+Orientation: x=0.0 y=0.0 z=0.999 w=-0.034
