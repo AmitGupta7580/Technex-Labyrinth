@@ -6,15 +6,20 @@ Solution node for Labyrinth event under Technex'22
 
 ### Basic Steps
 
-1. Launch Gazebo
-2. Launch Rviz
+1. Launch Gazebo  [`roslaunch labyrinth_qual labyrinth_husky_arena.launch`]
+2. Launch Rviz  [`rosrun rviz rviz`]
 
 
 ### Generating/saving map
 
-1. rosrun gmapping slam_gmapping scan:scan odam_frame:odom
-3. run teleop node
-2. rosrun map_server map_saver -f map_name
+1. Gmapping Node  [`roslaunch solution gmapping.launch`]
+3. Teleop Node  [`rosrun teleop_twist_keyboard teleop_twist_keyboard.py`]
+2. Saving Map  [`rosrun map_server map_saver -f map_name`]
+
+
+### Qualification Round
+
+1. Run quals.py  [`roscd solution/src/  -> python3 quals.py`]
 
 
 ### Autonomous navigation
